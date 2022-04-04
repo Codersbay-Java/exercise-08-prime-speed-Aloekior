@@ -4,7 +4,7 @@ public class Main {
 
 	public static void main(String[] args) {
 		long start = System.currentTimeMillis();
-		int[] primes = null; // replace with correct call
+		int[] primes = PrimeNumbers.getPrimeNumbers(150000); // replace with correct call
 		long end = System.currentTimeMillis();
 		
 		for (int prime : primes) {
